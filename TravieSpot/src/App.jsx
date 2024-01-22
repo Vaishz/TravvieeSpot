@@ -1,5 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Home from './Home'
+import Flights from './assets/Flights/Flights'
 
 
 const App = () => {
@@ -8,7 +10,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route path = '/' element = {<Home/>}/>
-      <Route path = '/' element = {<Home/>}/>
+      <Route path = '/flights' element = {<Flights/>}/>
       <Route path = '/' element = {<Home/>}/>
       <Route path = '/' element = {<Home/>}/>
       <Route path = '/' element = {<Home/>}/>
