@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './Home'
 import Flights from './assets/Flights/Flights'
+import HolidayPack from './assets/HolidayPack/HolidayPack'
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
     <Routes>
       <Route path = '/' element = {<Home/>}/>
       <Route path = '/flights' element = {<Flights/>}/>
-      <Route path = '/' element = {<Home/>}/>
+      <Route path = '/holipack' element = {<HolidayPack/>}/>
       <Route path = '/' element = {<Home/>}/>
       <Route path = '/' element = {<Home/>}/>
       <Route path = '/' element = {<Home/>}/>
